@@ -1,0 +1,27 @@
+/* TEAM */
+  Coordinateur National : Aly Leno
+  Vice-Président : Abdoulaye Diallo
+  Secrétaire Administratif : Ibrahima Cissé
+  Secrétaire Relations Extérieures : Aboubacar Sidy Sidibé
+  Trésorier : Mamadou Djouma Sow
+  Secrétaire Communication : Abdourahamane Aziz Sow
+  Secrétaire Projets & Programmes : Saïkou Oumar Sow
+
+  Contact : ongvapesforever3690@gmail.com
+  Téléphone : +224 622 170 210
+  Siège : Sanoyah Km 36, Coyah, Guinée
+  Facebook : facebook.com/profile.php?id=61572129334576
+
+/* THANKS */
+  Merci à toutes les communautés, bénévoles, partenaires et bailleurs
+  qui rendent notre action possible à travers toute la Guinée.
+
+/* SITE */
+  Last update : 2026-04-17
+  Language : Français / English
+  Fonts : Fraunces, Inter
+  Standards : HTML5, CSS3, ES6
+  Tools : Vanilla JS, SVG, JSON-LD Schema
+  Components : Static, no tracker, no ads, no cookies
+  Hosting : Netlify / Cloudflare Pages (recommended)
+  License : Contenu © ONG VAPES 2019-2026

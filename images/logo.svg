@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="earth" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3FA855"/>
+      <stop offset="100%" stop-color="#0A5A2F"/>
+    </radialGradient>
+    <linearGradient id="person" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7D564"/>
+      <stop offset="100%" stop-color="#E6B130"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="98" fill="#0A5A2F" stroke="#F5C23E" stroke-width="1"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Top text "ONG VAPES" curved -->
+  <defs>
+    <path id="topArc" d="M 30,100 A 70,70 0 0 1 170,100" fill="none"/>
+    <path id="bottomArc" d="M 40,125 A 60,60 0 0 0 160,125" fill="none"/>
+  </defs>
+  <text font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">ONG VAPES</textPath>
+  </text>
+
+  <!-- Earth globe -->
+  <circle cx="100" cy="105" r="28" fill="url(#earth)"/>
+  <path d="M 78,98 Q 90,90 100,100 Q 110,110 122,104" stroke="#0A5A2F" stroke-width="1.8" fill="none" opacity="0.6"/>
+  <path d="M 82,112 Q 95,118 108,112 Q 115,108 120,114" stroke="#0A5A2F" stroke-width="1.8" fill="none" opacity="0.6"/>
+
+  <!-- Plant sprout on top -->
+  <path d="M 100,77 Q 96,70 92,72 Q 94,76 100,79" fill="#3FA855"/>
+  <path d="M 100,77 Q 104,70 108,72 Q 106,76 100,79" fill="#3FA855"/>
+  <line x1="100" y1="79" x2="100" y2="74" stroke="#3FA855" stroke-width="2"/>
+
+  <!-- People silhouettes (yellow figures) -->
+  <g transform="translate(100, 130)">
+    <!-- center person -->
+    <circle cx="0" cy="-2" r="5" fill="url(#person)"/>
+    <path d="M -7,3 Q 0,1 7,3 L 6,15 L -6,15 Z" fill="url(#person)"/>
+    <!-- left 1 -->
+    <circle cx="-13" cy="0" r="4" fill="url(#person)" opacity="0.95"/>
+    <path d="M -18,5 Q -13,3 -8,5 L -9,15 L -17,15 Z" fill="url(#person)" opacity="0.95"/>
+    <!-- left 2 -->
+    <circle cx="-22" cy="3" r="3.5" fill="url(#person)" opacity="0.85"/>
+    <path d="M -26,7 Q -22,5 -18,7 L -18,15 L -26,15 Z" fill="url(#person)" opacity="0.85"/>
+    <!-- right 1 -->
+    <circle cx="13" cy="0" r="4" fill="url(#person)" opacity="0.95"/>
+    <path d="M 8,5 Q 13,3 18,5 L 17,15 L 9,15 Z" fill="url(#person)" opacity="0.95"/>
+    <!-- right 2 -->
+    <circle cx="22" cy="3" r="3.5" fill="url(#person)" opacity="0.85"/>
+    <path d="M 18,7 Q 22,5 26,7 L 26,15 L 18,15 Z" fill="url(#person)" opacity="0.85"/>
+  </g>
+
+  <!-- Book below -->
+  <g transform="translate(100, 152)">
+    <path d="M -30,0 L -2,-3 L -2,6 L -30,9 Z" fill="#D0D5D0" stroke="#999" stroke-width="0.5"/>
+    <path d="M 30,0 L 2,-3 L 2,6 L 30,9 Z" fill="#D0D5D0" stroke="#999" stroke-width="0.5"/>
+    <path d="M -2,-3 L -2,6 L 2,6 L 2,-3 Z" fill="#AAA"/>
+    <line x1="-26" y1="2" x2="-6" y2="-0.5" stroke="#999" stroke-width="0.3"/>
+    <line x1="-26" y1="4" x2="-6" y2="1.5" stroke="#999" stroke-width="0.3"/>
+    <line x1="26" y1="2" x2="6" y2="-0.5" stroke="#999" stroke-width="0.3"/>
+    <line x1="26" y1="4" x2="6" y2="1.5" stroke="#999" stroke-width="0.3"/>
+  </g>
+
+  <!-- Gold arc -->
+  <path d="M 25,105 A 75,75 0 0 0 175,105" fill="none" stroke="#F5C23E" stroke-width="2" opacity="0.9"/>
+
+  <!-- Bottom devise -->
+  <text font-family="Poppins, Arial, sans-serif" font-weight="500" font-size="9" fill="#FFFFFF" letter-spacing="1">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">Perception - Réalité - Réussite</textPath>
+  </text>
+</svg>

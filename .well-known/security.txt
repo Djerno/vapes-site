@@ -1,0 +1,23 @@
+# ONG VAPES — Politique de divulgation responsable (RFC 9116)
+# https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:ongvapesforever3690@gmail.com
+Contact: tel:+224622170210
+Expires: 2027-04-17T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://vapes.org/.well-known/security.txt
+Policy: https://vapes.org/transparence.html
+
+# Si vous découvrez une vulnérabilité sur ce site ou sur l'infrastructure
+# de l'ONG VAPES, nous vous remercions de nous contacter confidentiellement
+# avant toute divulgation publique. Nous nous engageons à :
+#
+#   1. Accuser réception sous 72 heures
+#   2. Valider la vulnérabilité et évaluer son impact
+#   3. Vous tenir informé·e de la progression du correctif
+#   4. Créditer votre découverte (avec votre accord) dans nos communications
+#
+# Merci de votre contribution à la sécurité d'une ONG au service des
+# communautés guinéennes.
+#
+# — Bureau du Conseil d'Administration, ONG VAPES
